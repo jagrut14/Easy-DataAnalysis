@@ -29,10 +29,11 @@ def main():
 
 		#File Upload
 		data=st.file_uploader("Upload you CSV or Excel File:",type=['csv','xlsx'])
-		st.success("File Upload Success")
+		
 
 		if data is not None:
 			file=pd.read_csv(data)
+			st.success("File Upload Success")
 			st.dataframe(file.head(10))
 
 			if st.checkbox("Show Data Columns"):

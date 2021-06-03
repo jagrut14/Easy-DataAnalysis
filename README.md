@@ -13,3 +13,5 @@ Technologies Used:
 -Heroku
 
 
+Link to the web app: https://easy-data-analysis.herokuapp.com/
+

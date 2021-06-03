@@ -1,5 +1,4 @@
 
-python==3.8.0
 altair==4.1.0
 
 astor==0.8.1

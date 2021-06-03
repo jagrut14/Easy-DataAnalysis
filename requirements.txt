@@ -44,7 +44,7 @@ protobuf==3.17.1
 
 pydeck==0.6.2
 
-pywin32==301
+
 pywinpty==1.1.1
 PyYAML==5.4.1
 pyzmq==22.1.0

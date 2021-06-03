@@ -8,6 +8,8 @@ import matplotlib
 import matplotlib.pyplot as plt
 matplotlib.use('Agg')
 from PIL import Image
+import streamlit.components.v1 as components
+from streamlit_pandas_profiling import st_profile_report
 
 
 
@@ -22,7 +24,7 @@ def main():
 	option=st.sidebar.selectbox('Selection option:',activities)
 
 	#EDA Tab
-	if option=='EDA':
+	if option =='EDA':
 		st.subheader("Exploratory Data Analysis")
 
 		#File Upload
@@ -83,12 +85,14 @@ def main():
 
 
 			if st.checkbox("Would you like to implement AutoEDA library: Pandas Profiling on you data?"):
+				profile = ProfileReport(file)
+				st_profile_report(profile)
+				#prof = ProfileReport(sub_file, explorative=True, minimal=True)
 
-				prof = ProfileReport(sub_file, explorative=True, minimal=True)
+				#output = prof.to_file('output.html', silent=False)
+				#st.write(prof)
 
-				output = prof.to_file('output.html', silent=False)
-
-				st.success("Success! Check the Page in your other tab.")
+				#st.success("Success! Check the Page in your other tab.")
 
 
 

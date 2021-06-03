@@ -12,7 +12,7 @@ cachetools==4.2.2
 certifi==2021.5.30
 pyarrow
 click==7.1.2
-streamlit-pandas-profiling=0.1.2
+streamlit-pandas-profiling==0.1.2
 cycler==0.10.0
 
 entrypoints==0.3

@@ -51,7 +51,7 @@ pyzmq==22.1.0
 
 scipy
 
-sip==4.19.13
+
 six==1.16.0
 smmap==4.0.0
 streamlit==0.82.0

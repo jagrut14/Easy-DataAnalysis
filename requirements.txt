@@ -30,7 +30,7 @@ matplotlib-inline==0.1.2
 
 
 
-mkl-service==2.3.0
+
 
 numpy==1.20.3
 olefile==0.46

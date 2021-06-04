@@ -1,4 +1,4 @@
-# Easy Data Anaysis
+# Easy Data Anaylsis
 
 Hello,
 I've tried to create an easy Web UI for the Data Analysis tasks that I do on a regular basis.

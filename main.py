@@ -87,7 +87,9 @@ def main():
 
 			if st.checkbox("Would you like to implement AutoEDA library: Pandas Profiling on you data?"):
 				profile = ProfileReport(file)
+				st.success('Success, the report will be generated in a few moments. Please wait...')
 				st_profile_report(profile)
+				
 				#prof = ProfileReport(sub_file, explorative=True, minimal=True)
 
 				#output = prof.to_file('output.html', silent=False)
